@@ -13,9 +13,6 @@
         "cordova-plugin-device": {
             "PACKAGE_NAME": "io.ionic.starter"
         },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "io.ionic.starter"
-        },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "io.ionic.starter"
         },
@@ -27,6 +24,9 @@
         },
         "cordova-android-support-gradle-release": {
             "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.ucalc446398"
         }
     },
     "dependent_plugins": {}
