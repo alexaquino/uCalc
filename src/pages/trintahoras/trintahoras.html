@@ -1,16 +1,6 @@
-<ion-content padding class="no-scroll" style="background: url(assets/img/NlARaVQlRO607GxBv88M_home.png) no-repeat center; background-size: cover; background-color: #FFFFFF;" id="page5">
+<ion-content padding class="no-scroll" style="background: url(assets/img/home.png) no-repeat center; background-size: cover; background-color: #FFFFFF;" id="page5">
   <!-- Espaço -->
   <div class="spacer" style="width: 300px; height: 170px;" id="trintahoras-spacer8"></div>
-
-  <!-- Texto: Por gentileza, informe suas notas
-  <div id="trintahoras-markdown8" style="text-align:center;" class="show-list-numbers-and-dots">
-    <p style="color: #FFFFFF; font-size: 12px;">
-      Por gentileza, informe suas notas
-    </p>
-  </div>
-  -->
-
-  <!-- Formulário -->
   <!--/Inputs: Notas unidade_1, unidade_2 e Botões: Calcular, Ajuda, Disciplinas 60/90h-->
     <!-- Espaço -->
     <div class="spacer" style="width: 300px; height: 10px;" id="trintahoras-spacer9"></div>
@@ -27,7 +17,6 @@
     </ion-item>
     <!-- Espaço -->
     <div class="spacer" style="height: 5px;" id="trintahoras-spacer11"></div>
-
     <!-- Switch Case: Aprovado, Recuperação, Reprovado -->
     <div [ngSwitch]="resultadoFinal">
         <!-- Aprovado -->
@@ -52,7 +41,6 @@
             </button>
         </div>
     </div>
-
     <!-- Botão: Disciplinas 60/90h -->
     <button id="trintahoras-button9" ion-button color="secondary" icon-left style="text-align: left;" on-click="goToHome()">
       <ion-icon name="alert"></ion-icon>
@@ -63,7 +51,6 @@
       <ion-icon name="book"></ion-icon>
       Ajuda?!
     </button>
-
   <!-- Espaço -->
   <div class="spacer" style="width: 300px; height: 20px;" id="trintahoras-spacer15"></div>
   <!-- Barra de status: Score / Nota Unidade 2 -->
@@ -81,9 +68,6 @@
         {{ unidade2 }}
     </p>
   </div>
-
-  <!-- Espaço -->
-
   <!-- Texto/Rodapé: Desenvolvido por <3 spaceLab -->
   <div id="home-markdown11" style="text-align: center;" class="show-list-numbers-and-dots">
     <p style="color: #BDBDBD; font-size: 12px;">

@@ -1,16 +1,6 @@
-<ion-content padding class="no-scroll" style="background: url(assets/img/NlARaVQlRO607GxBv88M_home.png) no-repeat center; background-size: cover; background-color: #FFFFFF;" id="page1">
+<ion-content padding class="no-scroll" style="background: url(assets/img/home.png) no-repeat center; background-size: cover; background-color: #FFFFFF;" id="page1">
   <!-- Espaço -->
   <div class="spacer" style="width: 300px; height: 170px;" id="home-spacer14"></div>
-
-  <!-- Texto: Por gentileza, informe suas notas
-  <div id="home-markdown12" style="text-align: center;" class="show-list-numbers-and-dots">
-    <p style="color: #FFFFFF; font-size: 12px;">
-      Por gentileza, informe suas notas
-    </p>
-  </div>
-  -->
-
-  <!-- Formulário -->
   <!-- Inputs: Notas unidade_1, unidade_2, unidade_3 e Botões: Calcular, Ajuda, Disciplinas 30h -->
     <!-- Espaço -->
     <div class="spacer" style="width: 300px; height: 10px;" id="home-spacer16"></div>
@@ -33,7 +23,6 @@
     </ion-item>
     <!-- Espaço -->
     <div class="spacer" style="width: 300px; height: 15px;" id="home-spacer16"></div>
-
     <!-- Switch Case: Aprovado, Recuperação, Reprovado -->
     <div [ngSwitch]="resultadoFinal">
         <!-- Aprovado -->
@@ -58,7 +47,6 @@
             </button>
         </div>
     </div>
-
     <!-- Botão: Disciplinas 30h -->
     <button id="home-button7" ion-button color="secondary" icon-left style="text-align: left;" on-click="goToTrintahoras()">
       <ion-icon name="alert"></ion-icon>
@@ -69,7 +57,6 @@
       <ion-icon name="book"></ion-icon>
       Ajuda?!
     </button>
-
   <!-- Espaço -->
   <div class="spacer" style="width: 300px; height: 20px;" id="home-spacer16"></div>
   <!-- Barra de status: Score / Nota Unidade 3 -->
@@ -87,9 +74,6 @@
         {{ unidade3 }}
     </p>
   </div>
-
-  <!-- Espaço -->
-
   <!-- Texto/Rodapé: Desenvolvido por <3 spaceLab -->
   <div id="home-markdown11" style="text-align: center;" class="show-list-numbers-and-dots">
     <p style="color: #BDBDBD; font-size: 12px;">

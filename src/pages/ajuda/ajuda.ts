@@ -13,4 +13,5 @@ export class AjudaPage {
   goBack(){
     this.navCtrl.pop();
   }
+  
 }

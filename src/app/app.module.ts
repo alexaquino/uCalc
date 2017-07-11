@@ -10,7 +10,6 @@ import { ReprovadoPage } from '../pages/reprovado/reprovado';
 import { AjudaPage } from '../pages/ajuda/ajuda';
 import { Media } from '../providers/media';
 
-
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 

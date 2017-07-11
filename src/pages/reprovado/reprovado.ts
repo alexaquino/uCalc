@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { TrintahorasPage } from '../trintahoras/trintahoras';
-// Proveider: Armazena e disponibiliza média para todas as pages.
-import { Media } from '../../providers/media';
+import { Media } from '../../providers/media'; // Proveider: Armazena e disponibiliza média para todas as pages.
 
 @Component({
   selector: 'page-reprovado',
@@ -27,4 +26,5 @@ export class ReprovadoPage {
   goBack(){
     this.navCtrl.pop();
   }
+  
 }

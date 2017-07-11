@@ -5,8 +5,7 @@ import { RecuperacaoPage } from '../recuperacao/recuperacao';
 import { AprovadoPage } from '../aprovado/aprovado';
 import { HomePage } from '../home/home';
 import { AjudaPage } from '../ajuda/ajuda';
-// Proveider: Armazena e disponibiliza média para todas as pages.
-import { Media } from '../../providers/media';
+import { Media } from '../../providers/media'; // Proveider: Armazena e disponibiliza média para todas as pages.
 
 @Component({
   selector: 'page-trintahoras',
