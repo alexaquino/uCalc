@@ -45629,10 +45629,9 @@ RecuperacaoPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* Component */])({
         selector: 'page-recuperacao',template:/*ion-inline-start:"/Users/alexaquino/Documents/uCalc/src/pages/recuperacao/recuperacao.html"*/'<ion-content padding class="no-scroll" style="background: url(assets/img/recuperacao.png) no-repeat center; background-size: cover; background-color: #F0F0F0;" id="page3">\n  <!-- Botão: retornar -->\n  <button id="recuperacao-button1" ion-button icon-only color="positive" icon-left on-click="goBack()">\n    <ion-icon name="arrow-back"></ion-icon>\n  </button>\n  <!-- Texto/Feedback: Média -->\n  <p style="color:#FFFFFF; font-size: 12px;"> Média: {{ resultado_final.resultado }} </p>\n  <!-- Espaço -->\n  <div class="spacer" style="height: 190px;" id="recuperacao-spacer1"></div>\n  <!-- Nota necessária na recuperação -->\n  <div id="recuperacao-markdown1" style="text-align: center;" class="show-list-numbers-and-dots">\n    <p style="color:#FFFFFF; font-size: 120px;">\n      <strong>\n        <!-- nota de recuperação = (12 - Média) -->\n        {{ notaRecuperacao }}\n      </strong>\n    </p>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/alexaquino/Documents/uCalc/src/pages/recuperacao/recuperacao.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__providers_media__["a" /* Media */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_media__["a" /* Media */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_media__["a" /* Media */]])
 ], RecuperacaoPage);
 
-var _a, _b;
 //# sourceMappingURL=recuperacao.js.map
 
 /***/ }),
@@ -45684,10 +45683,9 @@ ReprovadoPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* Component */])({
         selector: 'page-reprovado',template:/*ion-inline-start:"/Users/alexaquino/Documents/uCalc/src/pages/reprovado/reprovado.html"*/'<ion-content padding class="no-scroll" style="background: url(assets/img/reprovado.png) no-repeat center; background-size: cover; background-color: #F0F0F0;" id="page4">\n  <!-- Botão: retornar -->\n  <button id="reprovado-button1" ion-button icon-only color="positive" icon-left on-click="goBack()">\n    <ion-icon name="arrow-back"></ion-icon>\n  </button>\n  <!-- Espaço -->\n  <div class="spacer" style="height: 230px;" id="reprovado-spacer1"></div>\n  <!-- Média -->\n  <div id="reprovado-markdown1" style="text-align: center;" class="show-list-numbers-and-dots">\n    <p style="color: #FFFFFF; font-size: 120px;">\n      <strong>\n        <!-- Média -->\n        {{ resultado_final.resultado }}\n      </strong>\n    </p>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/alexaquino/Documents/uCalc/src/pages/reprovado/reprovado.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__providers_media__["a" /* Media */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_media__["a" /* Media */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_media__["a" /* Media */]])
 ], ReprovadoPage);
 
-var _a, _b;
 //# sourceMappingURL=reprovado.js.map
 
 /***/ }),
