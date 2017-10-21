@@ -3,9 +3,10 @@ import { NavController } from 'ionic-angular';
 import { ReprovadoPage } from '../reprovado/reprovado';
 import { RecuperacaoPage } from '../recuperacao/recuperacao';
 import { AprovadoPage } from '../aprovado/aprovado';
-import { AjudaPage } from '../ajuda/ajuda';
 import { TrintahorasPage } from '../trintahoras/trintahoras';
 import { LoginPage } from '../login/login';
+
+import { AjudaPage } from '../ajuda/ajuda';
 
 // Proveider: Armazena e disponibiliza média para todas as pages.
 import { Media } from '../../providers/media';

@@ -1,4 +1,0 @@
-AUTENTICAÇÃO EMAIL E SENHA (FIREBASE):
-    Página de Login;
-    Página Criar Conta;
-    Página Resetar Senha;

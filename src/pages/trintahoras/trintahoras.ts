@@ -4,8 +4,14 @@ import { ReprovadoPage } from '../reprovado/reprovado';
 import { RecuperacaoPage } from '../recuperacao/recuperacao';
 import { AprovadoPage } from '../aprovado/aprovado';
 import { HomePage } from '../home/home';
+import { LoginPage } from '../login/login';
+
 import { AjudaPage } from '../ajuda/ajuda';
-import { Media } from '../../providers/media'; // Proveider: Armazena e disponibiliza média para todas as pages.
+
+// Proveider: Armazena e disponibiliza média para todas as pages.
+import { Media } from '../../providers/media';
+
+import { AuthService } from '../../providers/auth-service';
 
 @Component({
   selector: 'page-trintahoras',
@@ -14,7 +20,7 @@ import { Media } from '../../providers/media'; // Proveider: Armazena e disponib
 
 export class TrintahorasPage {
 
-  constructor(public navCtrl: NavController, public resultado_final: Media){ }
+  constructor(public navCtrl: NavController, public resultado_final: Media, private authService: AuthService){ }
 
   unidade_1 = '';
   unidade_2 = '';
@@ -80,5 +86,16 @@ export class TrintahorasPage {
   goToAjuda(params){
     if (!params) params = {};
     this.navCtrl.push(AjudaPage);
+  }
+
+  // Método Para Sair da Conta
+  signOut(){
+    this.authService.signOut()
+      .then(() => {
+        this.navCtrl.setRoot(LoginPage);
+      })
+      .catch((error) => {
+       console.error(error);
+      });
   }
 }
