@@ -22,12 +22,12 @@ import { AuthService } from '../providers/auth-service';
 
 // Configuração Firebase (obtido do console Firebase)
 const firebaseConfig = {
-    apiKey: "AIzaSyBAQq2g-0ngcoEa4eBfuKkwUBVHWexvGi0",
-    authDomain: "ucalc-beta.firebaseapp.com",
-    databaseURL: "https://ucalc-beta.firebaseio.com",
-    projectId: "ucalc-beta",
-    storageBucket: "ucalc-beta.appspot.com",
-    messagingSenderId: "993019474260"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 };
 
 
