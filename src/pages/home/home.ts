@@ -5,7 +5,12 @@ import { RecuperacaoPage } from '../recuperacao/recuperacao';
 import { AprovadoPage } from '../aprovado/aprovado';
 import { AjudaPage } from '../ajuda/ajuda';
 import { TrintahorasPage } from '../trintahoras/trintahoras';
-import { Media } from '../../providers/media'; // Proveider: Armazena e disponibiliza média para todas as pages.
+import { LoginPage } from '../login/login';
+
+// Proveider: Armazena e disponibiliza média para todas as pages.
+import { Media } from '../../providers/media';
+
+import { AuthService } from '../../providers/auth-service';
 
 @Component({
   selector: 'page-home',
@@ -14,7 +19,7 @@ import { Media } from '../../providers/media'; // Proveider: Armazena e disponib
 
 export class HomePage {
 
-  constructor(public navCtrl: NavController, public resultado_final: Media){ }
+  constructor(public navCtrl: NavController, public resultado_final: Media, private authService: AuthService){ }
 
   unidade_1 = '';
   unidade_2 = '';
@@ -82,4 +87,16 @@ export class HomePage {
     if (!params) params = {};
     this.navCtrl.push(AjudaPage);
   }
+
+  // Método Para Sair da Conta
+  signOut(){
+    this.authService.signOut()
+      .then(() => {
+        this.navCtrl.setRoot(LoginPage);
+      })
+      .catch((error) => {
+       console.error(error);
+      });
+  }
+
 }
